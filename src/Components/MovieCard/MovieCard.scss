@@ -1,0 +1,26 @@
+.movie-card {
+  width: 250px;
+  max-width: 350px;
+  height: 400px;
+  padding: 2rem;
+  text-align: center;
+
+  img {
+    width: 80%;
+  }
+
+  .card-footer {
+    text-align: center;
+
+    h4 {
+      color: dodgerblue;
+      margin: .5rem 0;
+
+      &.sub-title {
+        color: rgb(100, 100, 100);
+      }
+    }
+
+  }
+
+}

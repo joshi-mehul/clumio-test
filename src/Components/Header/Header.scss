@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  height: 2.5rem;
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: baseline;
+
+  .logo {
+    color: #fff;
+  }
+
+  .nav {
+
+    ul {
+      li {
+        display: inline-block;
+        margin: 0 1rem;
+        color: dodgerblue;
+        font-weight: bold;
+
+        &.active {
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .search {
+    h3 {
+      color: dodgerblue;
+      display: inline-block;
+    }
+    svg {
+      display: inline-block;
+      position: relative;
+      top: .2rem;
+      padding: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to left bottom, rgb(34,24,42), rgb(87, 170, 170));
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+
+  .app {
+    width: 1280px;
+    margin: 5rem auto;
+    background-color: rgb(25, 31, 37);
+  }
+}
